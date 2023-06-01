@@ -4,11 +4,12 @@
     font-family: "Ubuntu",sans-serif
 }
 body{
-    background: linear-gradient(180deg, #594cee 0%, #8dd0f5 100%);
+    background: linear-gradient(185deg, #594cee 0%, #ca4141 100%);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    opacity: ;
 }
 
 .hide{
@@ -21,6 +22,7 @@ body{
     padding: 2rem;
     color: #fdfdfd;
     border-radius: 1rem;
+    opacity: 0.8;
 }
 
 .form h3{
@@ -49,6 +51,10 @@ body{
     cursor: pointer;
 }
 
+.form button :hover{
+    opacity: 0.7;
+    color:gray;
+}
 
 /* Clima*/
 
